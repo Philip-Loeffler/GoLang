@@ -8,6 +8,7 @@ import "fmt"
 func main() {
 	fmt.Println("hello world")
 
+	// the reausable function
 	foo()
 
 	fmt.Println("here is some more stuff")
