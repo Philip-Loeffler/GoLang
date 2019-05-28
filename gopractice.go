@@ -16,6 +16,7 @@ var a int
 type burger int
 
 var b burger
+var c int
 
 func main() {
 
@@ -27,4 +28,6 @@ func main() {
 	fmt.Println(y)
 	fmt.Println(z)
 
+	//conversion!
+	y := int(x)
 }
