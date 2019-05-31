@@ -6,6 +6,7 @@ import (
 // strings are immutable, so you cannot change the value stored, but you can assign a new value
 // string type is a value that is stored in a variable of type string
 // so you can assign a new value but you cannot change the type string 
+
 func stringtype() {
 	s := "string type"
 	fmt.Println(s)
