@@ -8,6 +8,8 @@ func functionSyntax() {
 	foo()
 	bar("james")
 	phil("phil")
+	// functions with return statements will have a variable associated 
+	// with them
 	s1 := woo("moneypenny")
 	fmt.println(s1)
 	x, y := mouse("ian", "flemming")
